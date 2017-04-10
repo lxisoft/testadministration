@@ -14,7 +14,7 @@ public class DemoApplication {
 	}
 	
 	@RequestMapping("/a")
-	public String getDate(){
+	public String getDatas(){
 		return "ajmal";
 	}
 	@RequestMapping("/b")

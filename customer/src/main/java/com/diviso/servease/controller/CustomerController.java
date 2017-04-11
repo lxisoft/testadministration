@@ -21,9 +21,9 @@ public class CustomerController {
 	@Autowired
 	private CustomerService customerService;
 
-	@RequestMapping(value = "/customer", method = RequestMethod.POST)
+	@RequestMapping(value = "/customer")
 	public String saveCustomer(@ModelAttribute Customer customer) {
 		
-		return "customer succesfully Added!";
+		return "customer succesfully Added...!";
 	}
 }

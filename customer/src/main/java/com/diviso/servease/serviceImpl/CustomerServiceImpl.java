@@ -10,7 +10,6 @@ import com.diviso.servease.repository.CustomerRepository;
 import com.diviso.servease.service.CustomerService;
 
 @Service
-@Transactional
 public class CustomerServiceImpl implements CustomerService {
 
 	@Autowired
@@ -22,27 +21,5 @@ public class CustomerServiceImpl implements CustomerService {
 		customerRepository.save(customer);
 
 	}
-
-	@Override
-	public void delete(int id) {
-
-		customerRepository.delete(id);
-
-	}
-
-	@Override
-	public Customer findById(int id) {
-		
-		return customerRepository.findById(id);
-		 
-		
-	}
-
-	@Override
-	public List<Customer> findAll() {
-		
-		return customerRepository.findAll();
-	}
-
 
 }

@@ -8,6 +8,5 @@ import com.diviso.servease.entity.Customer;
 @Repository
 public interface CustomerRepository extends JpaRepository<Customer, Integer> {
 
-	public Customer findById(int id);
 
 }

@@ -12,6 +12,6 @@ public class controler {
 	public String show()
 	{
 	
-	return "vineeth to slowsdsd   sdsdd";
+	return "hai diviso";
      }
 }
